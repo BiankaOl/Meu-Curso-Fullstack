@@ -5,27 +5,33 @@ async function procurar(){
 
     for (let produto in produtos){
         document.body.innerHTML += `
-            <p class='titulo'> 
-                ${produtos[produto].nome}
-            </p>
-            <img 
-                src ="${produtos[produto].img}"
-                alt="Não renderizou"
-                width="auto"
-                height="250"
-            >
-            <p>
-             ${produtos[produto].descricao}
-            </p>
-            <p>
-             ${produtos[produto].valorSemDesconto}
-            </p>
-            <p>
-             ${produtos[produto].valorComDesconto}
-            </p>
-            <p>
-             ${produtos[produto].tipoEntrega}
-            </p>
+            <div class="card">
+                
+                <img 
+                    src ="${produtos[produto].img}"
+                    alt="Não renderizou"
+                    width="auto"
+                    height="250"
+                >
+                <p class='titulo'> 
+                    ${produtos[produto].nome}
+                </p>
+                <div class="valores">
+                <p>
+                    ${produtos[produto].descricao}
+                </p>
+                <span class="Sem">
+                    R$ ${produtos[produto].valorSemDesconto}
+                </span>
+                <span class="Com">
+                    R$ ${produtos[produto].valorComDesconto}
+                </span>
+                </div>
+                <p>
+                    ${produtos[produto].tipoEntrega}
+                </p>
+
+            </div
             `
     }
 

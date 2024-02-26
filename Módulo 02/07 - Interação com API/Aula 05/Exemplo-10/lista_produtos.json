@@ -1,5 +1,6 @@
 [
     {
+    "id": 1,
     "img": "https://a-static.mlcdn.com.br/800x560/sofa-retratil-reclinavel-3-lugares-veludo-joly-platinum-qatar-gralha-azul-estofados/magazineluiza/235652100/b0ba5d80a53c150f1e1932837391003e.jpg",
     "nome": "Sofá Retrátil Reclinável 3 Lugares Veludo",
     "descricao": "Em caso de uso de ocultação de cadáver, não mencionar a empresa.",
@@ -8,6 +9,7 @@
 },
 
 {
+    "id": 2,
     "img": "https://a-static.mlcdn.com.br/800x560/guarda-roupa-casal-6-portas-3-gavetas-demobile-pratico/magazineluiza/230613200/3f02791cd00e0df727a13a414584baf5.jpg",
     "nome": "Guarda-roupa Casal 6 Portas 3 Gavetas ",
     "descricao": "Desmontável até na hora do divórcio",
@@ -16,6 +18,7 @@
 },
 
 {
+    "id": 3,
     "img": "https://a-static.mlcdn.com.br/800x560/ar-condicionado-split-hi-wall-inverter-springer-midea-airvolution-connect-9-000-btus-frio-220v-r-32/climario/31803/e8dc23daab75c1cd6a46663ee4057cd9.jpeg",
     "nome": "Ar Condicionado Split Hi Wall",
     "descricao": "Mais Ar pra você",
@@ -24,6 +27,7 @@
 },
 
 {
+    "id": 4,
     "img": "https://a-static.mlcdn.com.br/800x560/fogao-6-bocas-branco-consul-acendimento-automatico-cfs6nabuna/magazineluiza/217310700/f095d2a9032eb82816cc68d30dd6c79c.jpg",
     "nome": "Fogão 6 Bocas Branco",
     "descricao": "Mais comida na mesa",
@@ -32,6 +36,7 @@
 },
 
 {
+    "id": 5,
     "img": "https://a-static.mlcdn.com.br/800x560/smartphone-samsung-galaxy-a34-128gb-verde-lima-5g-octa-core-6gb-ram-66-cam-tripla-selfie-13mp-dual-chip/magazineluiza/236821800/3f12a5d9bd7d0bfbbe3545d5e64ca1d2.jpg",
     "nome": "Smartphone Samsung Galaxy A34 128GB",
     "descricao": "Mal cabe suas fotos imagina joguinho",
@@ -41,6 +46,7 @@
 
 
 {
+    "id": 6,
     "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSt3Foy3DDK_VFZT-5xdUNNBNRqoR3qch9SGJwfNURR-_DZ8fuZORb8nxedgY3eVVV17guiHA6yJDMzWe2kX5EMYDmg5uDuZ708_Jm9QTNr5NGjf_q9EZWi",
     "nome": "Cafeteira Nescafe Dolce Gusto Mini Me Preta Automática",
     "descricao": "Para os viciados em cafeína",

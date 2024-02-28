@@ -20,15 +20,16 @@ async function buscar(){
         `
     }
 
-    let elementosCard = document.querySelectorAll(".card")
-    for(let card of elementosCard){
-        card.addEventListener("click", cliquei)
+    let elementosCards = document.querySelectorAll(".card")
+    for(let card of elementosCards){
+        card.addEventListener("click", clicou)
     }
 }
 
 buscar()
 
-function cliquei(){
-    let elementoId = this.getAttribute("data-id")
-    window.location.href = "detalhes.html?id=" + elementoId
+function clicou(){
+    let produtoId = this.getAttribute("data-id")
+    alert("card" + produtoId)
+    window.location.href = "detalhes.html?id=" + produtoId
 }

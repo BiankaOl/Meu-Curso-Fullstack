@@ -1,9 +1,9 @@
 async function buscar(){
-    let procura = await fetch("lista-produtos.json")
-    let produtos = await procura.json()
-
     let buscaParametro = new URLSearchParams(window.location.search)
     let parametroId = buscaParametro.get("id")
+
+    let procura = await fetch("lista-produtos.json")
+    let produtos = await procura.json()
 
     let indice = null
     for(let x in produtos){

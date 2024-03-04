@@ -30,6 +30,6 @@ buscar()
 
 function clicou(){
     let produtoId = this.getAttribute("data-id")
-    alert("card" + produtoId)
+    //alert("card" + produtoId)
     window.location.href = "detalhes.html?id=" + produtoId
 }

@@ -25,8 +25,8 @@ async function buscar(){
         card.addEventListener("click", clicou)
     }
 
-    const Image = document.getElementById('Image')
-    Image.innerHTML = '<img src="https://wx.mlcdn.com.br/site/desk/header/logo-lu-do-magalu.png" alt="auto"'
+    const Imagem = document.getElementById('Imagem')
+    Imagem.innerHTML = '<img src="https://wx.mlcdn.com.br/site/desk/header/logo-lu-do-magalu.png" alt="aute"'
 
 }
 
